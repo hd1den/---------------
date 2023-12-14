@@ -1,3 +1,4 @@
+# hello all !
 import colorama
 import os
 
@@ -8,27 +9,12 @@ red = colorama.Fore.RED
 magenta = colorama.Fore.MAGENTA
 blue = colorama.Fore.BLUE
 reset =  colorama.Fore.RESET
-
-
-
-
-
-
-
-
-
-
-
-
-
 board = list(range(1, 10))
-
 
 
 cells = 3
 dashes = 13
 spaces = 4
-
 counter = 0
 
 is_win = False
@@ -51,7 +37,6 @@ def draw_board():
         print(f'| {board[0 + i * 3]} | {board[1 + i * 3 ]} | {board[2 + i * 3]} |')
     print(" " * spaces, end ='')
     print('-' * dashes)
-
 
 
 while not is_win:
