@@ -2,7 +2,6 @@
 import colorama
 import os
 
-
 colorama.init()
 green = colorama.Fore.GREEN
 red = colorama.Fore.RED
